@@ -8,7 +8,7 @@ body {
     background-image: url("./nasa-earth.jpg");
     background-size: cover;
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: wheat;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,8 +19,20 @@ body {
 
  .main-container {
      display: flex;
+     text-align: center;
  }
 
- .hello {
-    align-content: center;
+.hello {
+    align-items: center;
+    text-align: center;
+}
+
+.icons {
+    width: 200px;
+    background-color: wheat;
+    border-radius: 25px;
+    background-position: left top;
+    background-repeat: repeat;
+    display:inline-block;
+    vertical-align: middle;
 }
